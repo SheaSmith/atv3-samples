@@ -1,0 +1,38 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <listWithPreview id="simpleHeader">
+            <header>
+                <simpleHeader>
+                    <title>Tumbler With Subtitle</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="titleSubtitleNavigationItems" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tumblerWithSubtitle/titleSubtitleNavigationItems.xml')">
+                                <label>Title &amp; Subtitle with Navigation Items</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="subtitleNavigationItems" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tumblerWithSubtitle/subtitleNavigationItems.xml')">
+                                <label>Subtitle with Navigation Items</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="titleSubtitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tumblerWithSubtitle/titleSubtitle.xml')">
+                                <label>Title &amp; Subtitle Only</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="subtitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tumblerWithSubtitle/subtitle.xml')">
+                                <label>Subtitle Only</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="emptySubtitleNavigationItems" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tumblerWithSubtitle/emptySubtitleNavigationItems.xml')">
+                                <label>Empty Subtitle with Navigation Items</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="emptyTitleNavigationItems" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tumblerWithSubtitle/emptyTitleNavigationItems.xml')">
+                                <label>Empty Title with Navigation Items</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

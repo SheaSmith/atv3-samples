@@ -1,0 +1,44 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../atv.xsd">
+    <body>
+        <listWithPreview id="main">
+            <header>
+                <simpleHeader>
+                    <title>Header</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="simpleHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/simpleHeader/simpleHeader.xml')">
+                                <label>Simple Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="tumblerWithSubtitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tumblerWithSubtitle/tumblerWithSubtitle.xml')">
+                                <label>Tumbler With Subtitle</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="tabWithTitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tabWithTitle/tabWithTitle.xml')">
+                                <label>Tab With Title</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="metadataHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/metadataHeader/metadataHeader.xml')">
+                                <label>Metadata Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="bannerHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/bannerHeader.xml')">
+                                <label>Banner Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="imageHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/imageHeader/imageHeader.xml')">
+                                <label>Image Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="imageHeaderWithButtons" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/imageHeaderWithButtons/imageHeaderWithButtons.xml')">
+                                <label>Image Header With Buttons</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="dynamicImageHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/dynamicImageHeader/dynamicImageHeader.xml')">
+                                <label>Dynamic Image Header</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

@@ -1,0 +1,43 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../atv.xsd">
+    <body>
+        <listWithPreview id="main">
+            <header>
+                <simpleHeader>
+                    <title>Poster Overlays</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Poster Types</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="moviePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/posterOverlays/moviePoster.xml')">
+                                <label>Movie Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="squarePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/posterOverlays/squarePoster.xml')">
+                                <label>Square Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="fourByThreePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/posterOverlays/fourByThreePoster.xml')">
+                                <label>4x3 Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="sixteenByNinePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/posterOverlays/sixteenByNinePoster.xml')">
+                                <label>16x9 Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="goldenPoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/posterOverlays/goldenPoster.xml')">
+                                <label>Golden Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="icloudUserPoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/posterOverlays/icloudUserPoster.xml')">
+                                <label>iCloud User Poster</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

@@ -1,0 +1,2448 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../atv.xsd">
+    <body>
+        <scroller id="simpleHeader">
+            <header>
+                <simpleHeader>
+                    <title>Movie Posters</title>
+                </simpleHeader>
+            </header>
+            <items>
+                <shelf id="justtitles">
+                    <sections>
+                        <shelfSection>
+                            <title>Just Titles</title>
+                            <items>
+                                <moviePoster id="moviePoster301">
+                                    <title>Title 1</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster302">
+                                    <title>Title 2</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster303">
+                                    <title>Title 3</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster304">
+                                    <title>Title 4</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="right">
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster305">
+                                    <title>Title 5</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small</title>
+                            <items>
+                                <moviePoster id="moviePoster341">
+                                    <title>Title 41</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster342">
+                                    <title>Title 42</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster343">
+                                    <title>Title 43</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster344">
+                                    <title>Title 44</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="right">
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster344">
+                                    <title>Title 45</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large</title>
+                            <items>
+                                <moviePoster id="moviePoster351">
+                                    <title>Title 51</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster352">
+                                    <title>Title 52</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster353">
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster354">
+                                    <title>Title 54</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="right">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster354">
+                                    <title>Title 55</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small Super</title>
+                            <items>
+                                <moviePoster id="moviePoster351">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster352">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster353">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster354">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="right">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster354">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="vcenter">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large Super</title>
+                            <items>
+                                <moviePoster id="moviePoster361">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster362">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster363">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster364">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="right">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster364">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="vcenter">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Custom</title>
+                            <items>
+                                <moviePoster id="moviePoster371">
+                                    <title>Title 71</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster372">
+                                    <title>Title 72</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster373">
+                                    <title>Title 73</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster374">
+                                    <title>Title 74</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="right">
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster374">
+                                    <title>Title 75</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="vcenter">
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+
+                <shelf id="justtitles">
+                    <sections>
+                        <shelfSection>
+                            <title>Text Alignment Left</title>
+                            <items>
+                                <moviePoster id="moviePoster401">
+                                    <title>Title 1</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster402">
+                                    <title>Title 2</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster403">
+                                    <title>Title 3</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster404">
+                                    <title>Title 4</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="right">
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster405">
+                                    <title>Title 5</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small</title>
+                            <items>
+                                <moviePoster id="moviePoster441">
+                                    <title>Title 41</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster442">
+                                    <title>Title 42</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster443">
+                                    <title>Title 43</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster444">
+                                    <title>Title 44</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="right">
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster444">
+                                    <title>Title 45</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large</title>
+                            <items>
+                                <moviePoster id="moviePoster451">
+                                    <title>Title 51</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster452">
+                                    <title>Title 52</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster453">
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 54</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="right">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 55</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small Super</title>
+                            <items>
+                                <moviePoster id="moviePoster451">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster452">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster453">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="right">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="vcenter">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large Super</title>
+                            <items>
+                                <moviePoster id="moviePoster461">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster462">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster463">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster464">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="right">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster464">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="vcenter">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Custom</title>
+                            <items>
+                                <moviePoster id="moviePoster471">
+                                    <title>Title 71</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster472">
+                                    <title>Title 72</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster473">
+                                    <title>Title 73</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster474">
+                                    <title>Title 74</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="right">
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster474">
+                                    <title>Title 75</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="vcenter">
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+
+                <shelf id="justtitles">
+                    <sections>
+                        <shelfSection>
+                            <title>Text Alignment Center</title>
+                            <items>
+                                <moviePoster id="moviePoster401">
+                                    <title>Title 1</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster402">
+                                    <title>Title 2</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster403">
+                                    <title>Title 3</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster404">
+                                    <title>Title 4</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="right">
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster405">
+                                    <title>Title 5</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small</title>
+                            <items>
+                                <moviePoster id="moviePoster441">
+                                    <title>Title 41</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster442">
+                                    <title>Title 42</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster443">
+                                    <title>Title 43</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster444">
+                                    <title>Title 44</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="right">
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster444">
+                                    <title>Title 45</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large</title>
+                            <items>
+                                <moviePoster id="moviePoster451">
+                                    <title>Title 51</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster452">
+                                    <title>Title 52</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster453">
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 54</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="right">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 55</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small Super</title>
+                            <items>
+                                <moviePoster id="moviePoster451">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster452">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster453">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="right">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="vcenter">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large Super</title>
+                            <items>
+                                <moviePoster id="moviePoster461">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster462">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster463">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster464">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="right">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster464">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="vcenter">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Custom</title>
+                            <items>
+                                <moviePoster id="moviePoster471">
+                                    <title>Title 71</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster472">
+                                    <title>Title 72</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster473">
+                                    <title>Title 73</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster474">
+                                    <title>Title 74</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="right">
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster474">
+                                    <title>Title 75</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="vcenter">
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+
+                <shelf id="justtitles">
+                    <sections>
+                        <shelfSection>
+                            <title>Text Alignment Right</title>
+                            <items>
+                                <moviePoster id="moviePoster401">
+                                    <title>Title 1</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster402">
+                                    <title>Title 2</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster403">
+                                    <title>Title 3</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster404">
+                                    <title>Title 4</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" position="right">
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster405">
+                                    <title>Title 5</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small</title>
+                            <items>
+                                <moviePoster id="moviePoster441">
+                                    <title>Title 41</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster442">
+                                    <title>Title 42</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster443">
+                                    <title>Title 43</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster444">
+                                    <title>Title 44</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small" position="right">
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster444">
+                                    <title>Title 45</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large</title>
+                            <items>
+                                <moviePoster id="moviePoster451">
+                                    <title>Title 51</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster452">
+                                    <title>Title 52</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster453">
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 54</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large" position="right">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 55</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large" position="vcenter">
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small Super</title>
+                            <items>
+                                <moviePoster id="moviePoster451">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small-super" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster452">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small-super" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster453">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small-super" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small-super" position="right">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster454">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="small-super" position="vcenter">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large Super</title>
+                            <items>
+                                <moviePoster id="moviePoster461">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large-super" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster462">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large-super" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster463">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large-super" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster464">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large-super" position="right">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster464">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="large-super" position="vcenter">
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Custom</title>
+                            <items>
+                                <moviePoster id="moviePoster471">
+                                    <title>Title 71</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="custom" position="top">
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster472">
+                                    <title>Title 72</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="custom" position="left">
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster473">
+                                    <title>Title 73</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="custom" position="bottom">
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster474">
+                                    <title>Title 74</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="custom" position="right">
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster474">
+                                    <title>Title 75</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true"/>
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="right" size="custom" position="vcenter">
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+
+                <shelf id="1">
+                    <sections>
+                        <shelfSection>
+                            <title>The Works</title>
+                            <items>
+                                <moviePoster id="moviePoster1">
+                                    <title>Title 1</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster2">
+                                    <title>Title 2</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster3">
+                                    <title>Title 3</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster4">
+                                    <title>Title 4</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster4">
+                                    <title>Title 5</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small</title>
+                            <items>
+                                <moviePoster id="moviePoster41">
+                                    <title>Title 41</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster42">
+                                    <title>Title 42</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster43">
+                                    <title>Title 43</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster44">
+                                    <title>Title 44</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster44">
+                                    <title>Title 45</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large</title>
+                            <items>
+                                <moviePoster id="moviePoster51">
+                                    <title>Title 51</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster52">
+                                    <title>Title 52</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster53">
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster54">
+                                    <title>Title 54</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster54">
+                                    <title>Title 55</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small Super</title>
+                            <items>
+                                <moviePoster id="moviePoster51">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster52">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster53">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster54">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster54">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="small-super" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large Super</title>
+                            <items>
+                                <moviePoster id="moviePoster61">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster62">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster63">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster64">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster64">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="large-super" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Custom</title>
+                            <items>
+                                <moviePoster id="moviePoster71">
+                                    <title>Title 71</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster72">
+                                    <title>Title 72</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster73">
+                                    <title>Title 73</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster74">
+                                    <title>Title 74</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster74">
+                                    <title>Title 75</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay size="custom" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+
+                <shelf id="left">
+                    <sections>
+                        <shelfSection>
+                            <title>Text Alignment Left</title>
+                            <items>
+                                <moviePoster id="moviePoster101">
+                                    <title>Title 1</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster102">
+                                    <title>Title 2</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster103">
+                                    <title>Title 3</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster104">
+                                    <title>Title 4</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster105">
+                                    <title>Title 5</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small</title>
+                            <items>
+                                <moviePoster id="moviePoster141">
+                                    <title>Title 41</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster142">
+                                    <title>Title 42</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster143">
+                                    <title>Title 43</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster144">
+                                    <title>Title 44</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster144">
+                                    <title>Title 45</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large</title>
+                            <items>
+                                <moviePoster id="moviePoster151">
+                                    <title>Title 51</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster152">
+                                    <title>Title 52</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster153">
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster154">
+                                    <title>Title 54</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster154">
+                                    <title>Title 55</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small Super</title>
+                            <items>
+                                <moviePoster id="moviePoster151">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster152">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster153">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster154">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster154">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="small-super" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large Super</title>
+                            <items>
+                                <moviePoster id="moviePoster161">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster162">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster163">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster164">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster164">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="large-super" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Custom</title>
+                            <items>
+                                <moviePoster id="moviePoster171">
+                                    <title>Title 71</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster172">
+                                    <title>Title 72</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster173">
+                                    <title>Title 73</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster174">
+                                    <title>Title 74</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster174">
+                                    <title>Title 75</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="left" size="custom" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+
+                <shelf id="center">
+                    <sections>
+                        <shelfSection>
+                            <title>Text Alignment Center</title>
+                            <items>
+                                <moviePoster id="moviePoster201">
+                                    <title>Title 1</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster202">
+                                    <title>Title 2</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster203">
+                                    <title>Title 3</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster204">
+                                    <title>Title 4</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster205">
+                                    <title>Title 5</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small</title>
+                            <items>
+                                <moviePoster id="moviePoster241">
+                                    <title>Title 41</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster242">
+                                    <title>Title 42</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster243">
+                                    <title>Title 43</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster244">
+                                    <title>Title 44</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 4</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster244">
+                                    <title>Title 45</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large</title>
+                            <items>
+                                <moviePoster id="moviePoster251">
+                                    <title>Title 51</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster252">
+                                    <title>Title 52</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster253">
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster254">
+                                    <title>Title 54</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster254">
+                                    <title>Title 55</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 5</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Small Super</title>
+                            <items>
+                                <moviePoster id="moviePoster251">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster252">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster253">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster254">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster254">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="small-super" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Large Super</title>
+                            <items>
+                                <moviePoster id="moviePoster261">
+                                    <title>Title 61</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster262">
+                                    <title>Title 62</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster263">
+                                    <title>Title 63</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster264">
+                                    <title>Title 64</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster264">
+                                    <title>Title 65</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="large-super" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 6</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+
+                        <shelfSection>
+                            <title>Custom</title>
+                            <items>
+                                <moviePoster id="moviePoster271">
+                                    <title>Title 71</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="top">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster272">
+                                    <title>Title 72</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="left">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 2</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster273">
+                                    <title>Title 73</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="bottom">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 3</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster274">
+                                    <title>Title 74</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="right">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                                <moviePoster id="moviePoster274">
+                                    <title>Title 75</title>
+                                    <image src="https://samples-appletv.shea.nz/img/moviePoster.jpg" required="true" />
+                                    <defaultImage>resource://Poster.png</defaultImage>
+                                    <overlay textAlignment="center" size="custom" position="vcenter">
+                                        <image src="https://samples-appletv.shea.nz/img/red.png" required="true" />
+                                        <title>Overlay Title 7</title>
+                                        <subtitle>Overlay Subtitle</subtitle>
+                                        <backgroundImage src="https://samples-appletv.shea.nz/img/green.png" />
+                                        <badge src="https://samples-appletv.shea.nz/img/purple.png" />
+                                    </overlay>
+                                </moviePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+
+
+            </items>
+        </scroller>
+    </body>
+</atv>

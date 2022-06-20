@@ -1,0 +1,34 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../atv.xsd">
+    <body>
+        <scroller id="simpleHeader">
+            <header>
+                <imageHeaderWithButtons>
+                    <title>Title</title>
+                    <subtitle>Subtitle</subtitle>
+                    <image src="https://samples-appletv.shea.nz/img/superShowcase.png" required="true" />
+                    <buttons>
+                        <actionButton id="one">
+                            <title>One</title>
+                        </actionButton>
+                        <actionButton id="two">
+                            <title>Two</title>
+                        </actionButton>
+                        <actionButton id="three">
+                            <title>Three</title>
+                        </actionButton>
+                    </buttons>
+                </imageHeaderWithButtons>
+            </header>
+            <items>
+                <grid id="grid">
+                    <items>
+                        <sixteenByNinePoster id="test">
+                            <title>Test</title>
+                        </sixteenByNinePoster>
+                    </items>
+                </grid>
+            </items>
+        </scroller>
+    </body>
+</atv>

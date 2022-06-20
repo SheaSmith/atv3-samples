@@ -1,0 +1,41 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <listWithPreview id="simpleHeader">
+            <header>
+                <simpleHeader>
+                    <title>Metadata Header</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="titleImageSubtitleRating" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/metadataHeader/titleImageSubtitleRating.xml')">
+                                <label>Title, Image, Subtitle &amp; Rating</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="titleImageSubtitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/metadataHeader/titleImageSubtitle.xml')">
+                                <label>Title, Image &amp; Subtitle</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="titleImageRating" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/metadataHeader/titleImageRating.xml')">
+                                <label>Title, Image &amp; Rating</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="titleSubtitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/metadataHeader/titleSubtitle.xml')">
+                                <label>Title &amp; Subtitle</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="titleImage" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/metadataHeader/titleImage.xml')">
+                                <label>Title &amp; Image</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="titleRating" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/metadataHeader/titleRating.xml')">
+                                <label>Title &amp; Rating</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="title" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/metadataHeader/title.xml')">
+                                <label>Title</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

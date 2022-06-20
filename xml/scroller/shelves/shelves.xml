@@ -1,0 +1,62 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <listWithPreview id="main">
+            <header>
+                <simpleHeader>
+                    <title>Shelves</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="moviePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/columnCounts.xml')">
+                                <label>Column Counts</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Poster Types</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="moviePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/moviePoster.xml')">
+                                <label>Movie Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="squarePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/squarePoster.xml')">
+                                <label>Square Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="fourByThreePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/fourByThreePoster.xml')">
+                                <label>4x3 Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="sixteenByNinePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/sixteenByNinePoster.xml')">
+                                <label>16x9 Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="goldenPoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/goldenPoster.xml')">
+                                <label>Golden Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="actionButton" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/actionButton.xml')">
+                                <label>Action Button</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="dashedActionButton" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/dashedActionButton.xml')">
+                                <label>Dashed Action Button</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="baseballScorePoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/baseballScorePoster.xml')">
+                                <label>Baseball Score Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="icloudUserPoster" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/icloudUserPoster.xml')">
+                                <label>iCloud User Poster</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="combined" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/combined.xml')">
+                                <label>Combined</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

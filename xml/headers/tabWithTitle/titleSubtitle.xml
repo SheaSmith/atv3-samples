@@ -1,0 +1,24 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <listByNavigation id="listByNav">
+            <header>
+                <tabWithTitle>
+                    <title>Title</title>
+                    <subtitle>Subtitle</subtitle>
+                </tabWithTitle>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="test">
+                                <label>Test</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listByNavigation>
+    </body>
+</atv>

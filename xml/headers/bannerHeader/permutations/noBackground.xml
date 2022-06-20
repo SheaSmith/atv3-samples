@@ -1,0 +1,46 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../atv.xsd">
+    <body>
+        <scroller id="simpleHeader">
+            <header>
+                <bannerHeader>
+                    <title>Title</title>
+                    <subtitle>Subtitle</subtitle>
+                    <rating>G</rating>
+                    <mediaBadges>
+                        <videoFormat>HD</videoFormat>
+                        <closedCaption/>
+                        <audioFormat>dolbyDigital</audioFormat>
+                        <additionalMediaBadges>
+                            <urlBadge insertIndex="0" src="https://samples-appletv.shea.nz/img/purple.png" required="true" />
+                        </additionalMediaBadges>
+                        <image src="https://samples-appletv.shea.nz/img/green.png" required="true" />
+                    </mediaBadges>
+                    <summary>Summary</summary>
+                    <buttons>
+                        <actionButton id="one">
+                            <title>One</title>
+                        </actionButton>
+                        <actionButton id="two">
+                            <title>Two</title>
+                        </actionButton>
+                        <actionButton id="three">
+                            <title>Three</title>
+                        </actionButton>
+                    </buttons>
+                    <footer>Footer</footer>
+                    <decoratorImage src="https://samples-appletv.shea.nz/img/720.png" required="true" />
+                </bannerHeader>
+            </header>
+            <items>
+                <grid id="grid">
+                    <items>
+                        <sixteenByNinePoster id="test">
+                            <title>Test</title>
+                        </sixteenByNinePoster>
+                    </items>
+                </grid>
+            </items>
+        </scroller>
+    </body>
+</atv>

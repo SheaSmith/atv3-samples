@@ -1,0 +1,19 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <scroller id="simpleHeader">
+            <items>
+                <grid id="grid">
+                    <items>
+                        <actionButton id="a">
+                            <title>Subtitle</title>
+                            <image>resource://Play.png</image>
+                            <focusedImage>resource://Play_focused.png</focusedImage>
+                            <badge>SD</badge>
+                        </actionButton>
+                    </items>
+                </grid>
+            </items>
+        </scroller>
+    </body>
+</atv>

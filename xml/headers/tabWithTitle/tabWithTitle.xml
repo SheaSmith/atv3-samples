@@ -1,0 +1,41 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <listWithPreview id="simpleHeader">
+            <header>
+                <simpleHeader>
+                    <title>Tab With Subtitle</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="titleSubtitleNavigationItems" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tabWithTitle/titleSubtitleNavigationItems.xml')">
+                                <label>Title &amp; Subtitle with Navigation Items</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="titleNavigationItems" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tabWithTitle/titleNavigationItems.xml')">
+                                <label>Title with Navigation Items</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="subtitleNavigationItems" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tabWithTitle/subtitleNavigationItems.xml')">
+                                <label>Subtitle with Navigation Items</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="titleSubtitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tabWithTitle/titleSubtitle.xml')">
+                                <label>Title &amp; Subtitle Only</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="title" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tabWithTitle/title.xml')">
+                                <label>Title Only</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="subtitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tabWithTitle/subtitle.xml')">
+                                <label>Subtitle Only</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="emptyTitleNavigationItems" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/tabWithTitle/emptyTitleNavigationItems.xml')">
+                                <label>Empty Title with Navigation Items</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

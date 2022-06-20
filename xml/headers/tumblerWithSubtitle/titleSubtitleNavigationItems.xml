@@ -1,0 +1,35 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <listByNavigation id="listByNav">
+            <header>
+                <tumblerWithSubtitle>
+                    <title>Title</title>
+                    <subtitle></subtitle>
+                </tumblerWithSubtitle>
+            </header>
+            <navigation>
+                <navigationItem>
+                    <title>Test 1</title>
+                </navigationItem>
+                <navigationItem>
+                    <title>Test 2</title>
+                </navigationItem>
+                <navigationItem>
+                    <title>Test 3</title>
+                </navigationItem>
+            </navigation>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="test">
+                                <label>Test</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listByNavigation>
+    </body>
+</atv>

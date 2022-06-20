@@ -1,0 +1,22 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <scroller id="simpleHeader">
+            <header>
+                <metadataHeader>
+                    <title>Title</title>
+                    <subtitle>Subtitle</subtitle>
+                </metadataHeader>
+            </header>
+            <items>
+                <grid id="grid">
+                    <items>
+                        <sixteenByNinePoster id="test">
+                            <title>Test</title>
+                        </sixteenByNinePoster>
+                    </items>
+                </grid>
+            </items>
+        </scroller>
+    </body>
+</atv>

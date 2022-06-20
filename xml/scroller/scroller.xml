@@ -1,0 +1,68 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../atv.xsd">
+    <body>
+        <listWithPreview id="main">
+            <header>
+                <simpleHeader>
+                    <title>Scroller</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <items>
+                            <oneLineMenuItem id="spacerHeights" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/spacerHeights.xml')">
+                                <label>Spacer Heights</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Headers</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="simpleHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/header/simpleHeader/simpleHeader.xml')">
+                                <label>Simple Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="tumblerWithSubtitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/header/tumblerWithSubtitle/tumblerWithSubtitle.xml')">
+                                <label>Tumbler With Subtitle</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="tabWithTitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/header/tabWithTitle/tabWithTitle.xml')">
+                                <label>Tab With Title</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="metadataHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/header/metadataHeader/metadataHeader.xml')">
+                                <label>Metadata Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="bannerHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/header/bannerHeader/bannerHeader.xml')">
+                                <label>Banner Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="imageHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/header/imageHeader/imageHeader.xml')">
+                                <label>Image Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="imageHeaderWithButtons" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/header/imageHeaderWithButtons/imageHeaderWithButtons.xml')">
+                                <label>Image Header With Buttons</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="dynamicImageHeader" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/header/dynamicImageHeader/dynamicImageHeader.xml')">
+                                <label>Dynamic Image Header</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Body Types</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="shelves" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/shelves/shelves.xml')">
+                                <label>Shelves</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

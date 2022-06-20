@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="73e68ed2-b296-42e3-8707-3f3fd7b15937" name="AppleTV Samples">
+        <fileTransfer rootFolder="/var/www/appletv/samples" accessType="SFTP" host="proxy.shea.nz" port="22" sshConfigId="ca6ebaea-0f1e-4266-9283-b746ade162d2" sshConfig="root@proxy.shea.nz:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

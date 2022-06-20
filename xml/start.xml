@@ -1,0 +1,44 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../atv.xsd">
+    <body>
+        <listWithPreview id="main" refreshInterval="10" onRefresh="console.log(event); atv.loadAndSwapXML(document);" volatile="true" onVolatileReload="console.log(event); atv.loadAndSwapXML(document);">
+            <header>
+                <simpleHeader>
+                    <title>UI Samples</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Body Elements</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="header" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/header.xml')">
+                                <label>Header</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="scroller" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/scroller/scroller.xml')">
+                                <label>Scroller</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Specific Element Info</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="posterOverlays" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/posterOverlays/posterOverlays.xml')">
+                                <label>Poster Overlays</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

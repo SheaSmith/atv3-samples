@@ -1,0 +1,70 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../atv.xsd">
+    <body>
+        <listWithPreview id="simpleHeader">
+            <header>
+                <simpleHeader>
+                    <title>Banner Header</title>
+                </simpleHeader>
+            </header>
+            <menu>
+                <sections>
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Alignment</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="none" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/alignment/none.xml')">
+                                <label>None</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="left" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/alignment/left.xml')">
+                                <label>Left</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="center" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/alignment/center.xml')">
+                                <label>Center</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="right" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/alignment/right.xml')">
+                                <label>Right</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Titles</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="textTitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/titles/textTitle.xml')">
+                                <label>Text Title</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="imageTitle" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/titles/imageTitle.xml')">
+                                <label>Image Title</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                    <menuSection>
+                        <header>
+                            <horizontalDivider>
+                                <title>Permutations</title>
+                            </horizontalDivider>
+                        </header>
+                        <items>
+                            <oneLineMenuItem id="all" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/permutations/all.xml')">
+                                <label>All</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="noButtons" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/permutations/noButtons.xml')">
+                                <label>No Buttons</label>
+                            </oneLineMenuItem>
+                            <oneLineMenuItem id="noBackground" onSelect="atv.loadURL('https://samples-appletv.shea.nz/xml/headers/bannerHeader/permutations/noBackground.xml')">
+                                <label>No Background</label>
+                            </oneLineMenuItem>
+                        </items>
+                    </menuSection>
+                </sections>
+            </menu>
+        </listWithPreview>
+    </body>
+</atv>

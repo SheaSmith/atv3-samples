@@ -1,0 +1,108 @@
+<atv  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../atv.xsd">
+    <body>
+        <scroller id="simpleHeader" fixedHeader="true">
+            <header>
+                <!-- Notes: Uber image only works with shelf (maybe adorned shelf) it seems. Crossfade works for everything except the title image, which appears/disappears instantly. -->
+                <dynamicImageHeader titleAlignment="left" uberImageSourceId="shelf" uberImageCrossfadeDuration="10">
+                    <title>Title</title>
+                    <subtitle>Subtitle</subtitle>
+                    <image src="https://samples-appletv.shea.nz/img/superShowcase.png" required="true" />
+                </dynamicImageHeader>
+            </header>
+            <items>
+                <shelf id="shelf">
+                    <sections>
+                        <shelfSection>
+                            <items>
+                                <sixteenByNinePoster id="test1" hideUberTitle="false" hideUberSubtitle="false">
+                                    <title>Title 1</title>
+                                    <subtitle>Subtitle 1</subtitle>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/superShowcase.png" />
+                                    <uberDecoratorImage required="true" src="https://samples-appletv.shea.nz/img/720.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test2" hideUberTitle="false" hideUberSubtitle="false">
+                                    <title>Title 2</title>
+                                    <subtitle>Subtitle 2</subtitle>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/blue.png" />
+                                    <uberDecoratorImage required="true" src="https://samples-appletv.shea.nz/img/1080.png" />
+                                    <uberTitleImage required="true" src="https://samples-appletv.shea.nz/img/sixteenByNine.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test3" hideUberTitle="false" hideUberSubtitle="false">
+                                    <title>Title 3</title>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/red.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test4" hideUberTitle="false" hideUberSubtitle="false">
+                                    <title>Title 4</title>
+                                </sixteenByNinePoster>
+
+                                <sixteenByNinePoster id="test5" hideUberTitle="true" hideUberSubtitle="false">
+                                    <title>Title 5</title>
+                                    <subtitle>Subtitle 5</subtitle>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/red.png" />
+                                    <uberDecoratorImage required="true" src="https://samples-appletv.shea.nz/img/720.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test6" hideUberTitle="true" hideUberSubtitle="false">
+                                    <title>Title 6</title>
+                                    <subtitle>Subtitle 6</subtitle>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/blue.png" />
+                                    <uberDecoratorImage required="true" src="https://samples-appletv.shea.nz/img/1080.png" />
+                                    <uberTitleImage required="true" src="https://samples-appletv.shea.nz/img/sixteenByNine.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test7" hideUberTitle="true" hideUberSubtitle="false">
+                                    <title>Title 7</title>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/red.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test8" hideUberTitle="true" hideUberSubtitle="false">
+                                    <title>Title 8</title>
+                                </sixteenByNinePoster>
+
+                                <sixteenByNinePoster id="test9" hideUberTitle="true" hideUberSubtitle="true">
+                                    <title>Title 9</title>
+                                    <subtitle>Subtitle 9</subtitle>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/red.png" />
+                                    <uberDecoratorImage required="true" src="https://samples-appletv.shea.nz/img/720.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test10" hideUberTitle="true" hideUberSubtitle="true">
+                                    <title>Title 10</title>
+                                    <subtitle>Subtitle 10</subtitle>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/blue.png" />
+                                    <uberDecoratorImage required="true" src="https://samples-appletv.shea.nz/img/1080.png" />
+                                    <uberTitleImage required="true" src="https://samples-appletv.shea.nz/img/sixteenByNine.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test11" hideUberTitle="true" hideUberSubtitle="true">
+                                    <title>Title 11</title>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/red.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test12" hideUberTitle="true" hideUberSubtitle="true">
+                                    <title>Title 12</title>
+                                </sixteenByNinePoster>
+
+                                <sixteenByNinePoster id="test13" hideUberTitle="false" hideUberSubtitle="true">
+                                    <title>Title 13</title>
+                                    <subtitle>Subtitle 13</subtitle>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/red.png" />
+                                    <uberDecoratorImage required="true" src="https://samples-appletv.shea.nz/img/720.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test14" hideUberTitle="false" hideUberSubtitle="true">
+                                    <title>Title 14</title>
+                                    <subtitle>Subtitle 14</subtitle>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/blue.png" />
+                                    <uberDecoratorImage required="true" src="https://samples-appletv.shea.nz/img/1080.png" />
+                                    <uberTitleImage required="true" src="https://samples-appletv.shea.nz/img/sixteenByNine.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test15" hideUberTitle="false" hideUberSubtitle="true">
+                                    <title>Title 15</title>
+                                    <uberImage required="true" src="https://samples-appletv.shea.nz/img/red.png" />
+                                </sixteenByNinePoster>
+                                <sixteenByNinePoster id="test16" hideUberTitle="false" hideUberSubtitle="true">
+                                    <title>Title 16</title>
+                                </sixteenByNinePoster>
+                            </items>
+                        </shelfSection>
+                    </sections>
+                </shelf>
+            </items>
+        </scroller>
+    </body>
+</atv>
